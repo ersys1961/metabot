@@ -68,6 +68,8 @@
   * [Регистрация в Dialogflow](dialogflow/registraciya-v-dialogflow.md)
   * [Интеграция с Dialogflow](dialogflow/integraciya-s-dialogflow.md)
   * [Обучение бота](dialogflow/obuchenie-bota.md)
+* [Интеграционные возможности​](integracionnye-vozmozhnosti/README.md)
+  * [Bot API](integracionnye-vozmozhnosti/bot-api.md)
 * [Примеры решений](primery-reshenii/README.md)
   * [Омни-канальный контакт центр](primery-reshenii/omni-kanalnyi-kc.md)
   * [Торговый бот первого касания](primery-reshenii/torgovyi-bot-pervogo-kasaniya.md)
