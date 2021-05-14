@@ -69,7 +69,6 @@
   * [Интеграция с Dialogflow](dialogflow/integraciya-s-dialogflow.md)
   * [Обучение бота](dialogflow/obuchenie-bota.md)
 * [Интеграционные возможности​](integracionnye-vozmozhnosti/README.md)
-  * [Получение токена](integracionnye-vozmozhnosti/poluchenie-tokena.md)
   * [Bot API](integracionnye-vozmozhnosti/bot-api.md)
   * [Обращение к внешним системам из бота](integracionnye-vozmozhnosti/obrashenie-k-vneshnim-sistemam-iz-bota.md)
 * [Примеры решений](primery-reshenii/README.md)
