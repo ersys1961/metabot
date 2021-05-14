@@ -28,6 +28,8 @@ Swagger доступен по адресу: [https://test.metabot.dev/api/docs](
 
 Для получения доступа к API вашего продуктивного бота обратитесь в поддержку.
 
+Ниже описан основной метод работы с ботом.
+
 {% api-method method="post" host="https://test.cakes.com" path="/bots/{botId}/jobs/schedule" %}
 {% api-method-summary %}
 Schedule
@@ -145,104 +147,6 @@ Could not find a cake matching this query.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-{% api-method method="get" host="https://test.cakes.com" path="/bots/{botId}/jobs/schedule" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="add\_tags" type="string" required=false %}
-Список меток/тегов, которыми необходимо пометить пользователя, например, 'tag1,tag2'
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="get" host="https://test.cakes.com" path="/bots/{botId}/jobs/schedule" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="script\_code" type="string" required=false %}
-, например, "script\_short\_code"
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="get" host="https://test.cakes.com" path="/bots/{botId}/jobs/schedule" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="script\_code" type="string" required=false %}
-, например, "script\_short\_code"
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{ "script\_id": 1, "trigger\_id": 1, "broadcast\_id": 1, "script\_code": "script\_short\_code", "trigger\_code": "trigger\_short\_code", "broadcast\_code": "broadcast\_short\_code", "lead\_id": 135, "ticket\_id": 7, "run\_at": "2021-01-21 21:00:00", "run\_after\_sec": 300, "is\_periodic": false, "repeat\_interval\_sec": 86400, "condition\_script\_code": "if \(leadId == 135\) {return true; }", "script\_request\_params": { "first\_param": 7, "second\_param": { "any\_key": "any\_value" } }, "add\_tags": "tag1,tag2", "remove\_tags": "tag1,tag2" }
 
 
 
