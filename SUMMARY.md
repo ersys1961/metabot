@@ -71,6 +71,7 @@
 * [Интеграционные возможности​](integracionnye-vozmozhnosti/README.md)
   * [Bot API](integracionnye-vozmozhnosti/bot-api.md)
   * [Обращение к внешним системам из бота](integracionnye-vozmozhnosti/obrashenie-k-vneshnim-sistemam-iz-bota.md)
+* [Deep Linking / Внешнее связывание](deep-linking-vneshnee-svyazyvanie.md)
 * [Примеры решений](primery-reshenii/README.md)
   * [Омни-канальный контакт центр](primery-reshenii/omni-kanalnyi-kc.md)
   * [Торговый бот первого касания](primery-reshenii/torgovyi-bot-pervogo-kasaniya.md)
