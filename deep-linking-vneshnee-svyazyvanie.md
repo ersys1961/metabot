@@ -103,11 +103,11 @@ https://app.metabot24.com/deeplink/whatsapp/**{телефон-whatsapp}**/f2cdWY
 
 {телефон-whatsapp} - заменить на номер телефона в формате 79ххххххххх
 
-![](.gitbook/assets/izobrazhenie%20%28458%29.png)
+![](.gitbook/assets/izobrazhenie%20%28461%29.png)
 
 После подстановки ссылку с данным URL можно размещать в интернете. При необходимости к ней можно добавить параметры, как это стандартно делается для http-ссылок.
 
-![](.gitbook/assets/izobrazhenie%20%28457%29.png)
+![](.gitbook/assets/izobrazhenie%20%28458%29.png)
 
 При переходе по такой ссылке происходит редирект на API соответствующего мессенджера, в нашем примере на WhatsApp.
 
