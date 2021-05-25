@@ -29,3 +29,15 @@ description: >-
 
 ![](../.gitbook/assets/izobrazhenie%20%28463%29.png)
 
+На платформе имеются методы JavaScript для проверки активности интеграции:
+
+* Установлена NLP интеграция - lead.hasActiveNlpIntegration;
+* Текущий ID NLP интеграции  - lead.getActiveNlpIntegrationId;
+* Текущий код NLP интеграции - lead.getActiveNlpIntegrationCode;
+* Текущий ID NLP интеграции + по умолчанию, если не установлена - lead.getActiveOrFirstNlpIntegrationId;
+* Текущий код NLP интеграции + по умолчанию, если не установлена - lead.getActiveOrFirstNlpIntegrationCode;
+* Текущий ID NLP интеграции, полученный по коду - bot.getIntegrationIdByCode;
+* Текущий ID активной NLP интеграции, полученный по коду - bot.getEnabledIntegrationIdByCode;
+* Включена NLP интеграция - проверка по ID - bot.isEnabledIntegrationById;
+* Включена NLP интеграция - проверка по коду - bot.isEnabledIntegrationByCode.
+
