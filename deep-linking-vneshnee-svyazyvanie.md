@@ -97,7 +97,9 @@ description: >-
 
 **Пример для WhatsApp:**
 
-В ссылке для Telegram бота - https://app.metabot24.com/deeplink/whatsapp/**{телефон-whatsapp}**/f2cdWYPOADnluTTT
+Аналогичным образом настраивается ссылка для WhatsApp бота подключенного через интеграцию Umnico: 
+
+https://app.metabot24.com/deeplink/whatsapp/**{телефон-whatsapp}**/f2cdWYPOADnluTTT
 
 {телефон-whatsapp} - заменить на номер телефона в формате 79ххххххххх
 
