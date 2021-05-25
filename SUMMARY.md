@@ -68,6 +68,7 @@
   * [Регистрация в Dialogflow](dialogflow/registraciya-v-dialogflow.md)
   * [Интеграция с Dialogflow](dialogflow/integraciya-s-dialogflow.md)
   * [Обучение бота](dialogflow/obuchenie-bota.md)
+  * [Подключение нескольких интеграций](dialogflow/podklyuchenie-neskolkikh-integracii.md)
 * [Интеграционные возможности​](integracionnye-vozmozhnosti/README.md)
   * [Bot API](integracionnye-vozmozhnosti/bot-api.md)
   * [Обращение к внешним системам из бота](integracionnye-vozmozhnosti/obrashenie-k-vneshnim-sistemam-iz-bota.md)
