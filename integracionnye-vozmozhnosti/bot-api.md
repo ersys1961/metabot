@@ -22,11 +22,9 @@ description: Обращение к боту из внешних систем
 
 ### Доступ к API
 
-Swagger доступен по адресу: [https://test.metabot.dev/api/docs](https://test.metabot.dev/api/docs)
+Swagger доступен по адресу: [https://app.metabot24.com/api/docs](https://app.metabot24.com/api/docs)
 
-Чтобы получить доступ, достаточно зарегистрировать любой аккаунт на платформе [https://test.metabot.dev](https://test.metabot.dev) \(это тестовый сервер\) или вы можете воспользоваться демо-аккаунтом demoapi@metabot24.com / demoapi1
-
-Для получения доступа к API вашего продуктивного бота обратитесь в поддержку.
+Чтобы получить доступ, достаточно зарегистрировать любой аккаунт на платформе [https://app.metabot24.com](https://app.metabot24.com), затем создать бот и перейти в раздел пользователей бота [https://app.metabot24.com/user](https://app.metabot24.com/user) и там создать API пользователя.
 
 Ниже описан основной метод работы с ботом.
 
