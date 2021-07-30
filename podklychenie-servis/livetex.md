@@ -40,7 +40,7 @@ description: Интеграция сервиса LiveTex с платформой
 
 На платформе [**Metabot24**](https://app.metabot24.com) в настройках своего бота необходимо выполнить следующие действия:
 
-* Перейти в раздел [**Настройки бота**](https://app.metabot24.com/bot-channel#) подраздел [**Каналы**](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/kanaly)**;**
+* Перейти в раздел [**Настройки бота**](https://app.metabot24.com/bot-channel#) подраздел [**Каналы**](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/kanaly)**;**
 * Нажать кнопку **Новая привязка** и выбрать канал **LiveTex \(Chat Center\)**.
 
 ![](../.gitbook/assets/izobrazhenie%20%28356%29.png)

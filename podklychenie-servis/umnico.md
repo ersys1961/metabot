@@ -6,13 +6,13 @@ description: Интеграция сервиса Umnico с платформой 
 
 {% embed url="https://youtu.be/-\_OS2OVHYOk" %}
 
-Для интеграции сервиса [Umnico](https://umnico.com) c платформой Metabot24 необходимо в разделе **Настройки -&gt; API** скопировать ваш API токен, нажав на кнопку **Скопировать токен**. 
+Для интеграции сервиса [Umnico](https://umnico.com) с платформой Metabot24 необходимо в разделе **Настройки -&gt; API** скопировать ваш API токен, нажав на кнопку **Скопировать токен**. 
 
 ![](../.gitbook/assets/izobrazhenie%20%28216%29.png)
 
 Далее на платформе [**Metabot24**](https://app.metabot24.com) в настройках своего бота выполнить следующие действия:
 
-* Перейти в настройки бота в раздел [**Настройки бота**](https://app.metabot24.com/bot-channel#) подраздел [**Каналы**](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/kanaly)**;**
+* Перейти в настройки бота в раздел [**Настройки бота**](https://app.metabot24.com/bot-channel#) подраздел [**Каналы**](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/kanaly)**;**
 * Нажать кнопку **Новая привязка** и выбрать канал **Umnico**;
 * В поле _**Токен**_ вставить скопированный токен;
 * В поле _**Логин Менеджера**_ вставить логин пользователя из Umnico и сохранить настройку.

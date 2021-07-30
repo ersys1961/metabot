@@ -12,7 +12,7 @@ description: Интеграция сервиса Jivo с платформой Me
 
 На платформе [**Metabot24**](https://app.metabot24.com) в настройках своего бота необходимо выполнить следующие действия:
 
-* Перейти в раздел [**Настройки бота**](https://app.metabot24.com/bot-channel#) подраздел [**Каналы**](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/kanaly)**;**
+* Перейти в раздел [**Настройки бота**](https://app.metabot24.com/bot-channel#) подраздел [**Каналы**](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/kanaly)**;**
 * Нажать кнопку **Новая привязка** и выбрать канал **Jivo**;
 
 ![](../.gitbook/assets/izobrazhenie%20%28322%29.png)
