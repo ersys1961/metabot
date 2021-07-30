@@ -348,7 +348,7 @@ description: >-
 [Создайте](https://app.metabot24.com/route/create) маршруты для взаимодействия бота с пользователями, нажав на кнопку _**Создать маршрут**_ в разделе **Настройки бота -&gt;** [**Маршруты**](https://app.metabot24.com/route)**.**
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием [Маршруты](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/marshruty).
+Рекомендуем также ознакомиться с подробным описанием [Маршруты](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/marshruty).
 {% endhint %}
 
 1. [Создайте](https://app.metabot24.com/route/create) маршрут, который будет запускаться для приветствия.
@@ -392,7 +392,7 @@ description: >-
 Для работы нам понадобится сервис Dialogflow и чтобы им воспользоваться необходимо иметь аккаунт Google.
 
 {% hint style="info" %}
-Как выполнять регистрацию и интеграцию с соответствующим намерением из базы знаний в DF рекомендуем ознакомиться в разделах [Регистрация с Dialogflow](https://metarex.gitbook.io/metabot24/dialogflow/registraciya-s-dialogflow) и [Интеграция с Dialogflow](https://metarex.gitbook.io/metabot24/dialogflow/integraciya-s-dialogflow).
+Как выполнять регистрацию и интеграцию с соответствующим намерением из базы знаний в DF рекомендуем ознакомиться в разделах [Регистрация в Dialogflow](https://metabot.gitbook.io/documentation/dialogflow/registraciya-v-dialogflow) и [Интеграция с Dialogflow](https://metabot.gitbook.io/documentation/dialogflow/integraciya-s-dialogflow).
 {% endhint %}
 
 1.  Выполните авторизацию на сервисе Dialogflow.
@@ -406,7 +406,7 @@ description: >-
 5. Создаем Намерения, с помощью которых бот сможет распознавать текстовые запросы пользователя и подбирать правильные ответы из базы знаний.
 
 {% hint style="info" %}
-Как выполнять обучение бота соответствующим намерениям из базы знаний в DF рекомендуем ознакомиться в разделе [Обучение бота](https://metarex.gitbook.io/metabot24/dialogflow/obuchenie-bota).
+Как выполнять обучение бота соответствующим намерениям из базы знаний в DF рекомендуем ознакомиться в разделе [Обучение бота](https://metabot.gitbook.io/documentation/dialogflow/obuchenie-bota).
 {% endhint %}
 
 6. Создаем Намерения, с помощью которых бот сможет распознавать текстовые запросы пользователя и подбирать правильные ответы из базы знаний. По кнопке _**Create Intent**_ создаем новое намерение**.**
@@ -462,7 +462,7 @@ description: >-
 ![](../.gitbook/assets/izobrazhenie%20%28146%29.png)
 
 {% hint style="warning" %}
-Интегрируйте Dialogflow с Metabot, используя эту инструкцию [Интеграция с Dialogflow](https://metarex.gitbook.io/metabot24/dialogflow/integraciya-s-dialogflow).
+Интегрируйте Dialogflow с Metabot, используя эту инструкцию [Интеграция с Dialogflow](https://metabot.gitbook.io/documentation/dialogflow/integraciya-s-dialogflow).
 {% endhint %}
 
 * В диалоговом окне заполнить следующие параметры:
@@ -480,7 +480,7 @@ description: >-
 ![](../.gitbook/assets/izobrazhenie%20%2810%29.png)
 
 {% hint style="warning" %}
-Для интеграции с каналами от Umnico, воспользуйтесь инструкцией [Бот на базе Umnico](bot-na-baze-umnico.md).
+Для интеграции с каналами от Umnico, воспользуйтесь инструкцией [Бот на базе Umnico](https://metabot.gitbook.io/documentation/lessons/bot-na-baze-umnico).
 {% endhint %}
 
 ### Запуск бота в Telegram
@@ -488,13 +488,13 @@ description: >-
 1. Создайте бот в Telegram при помощи **@BotFather** и скопируйте токен.
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием[ Интеграция канала Telegram](https://metarex.gitbook.io/metabot24/podklychenie-kanal/telegram).
+Рекомендуем также ознакомиться с подробным описанием [Интеграция канала Telegram](https://metabot.gitbook.io/documentation/podklyuchenie-kanalov/telegram).
 {% endhint %}
 
    2. [Создайте](https://app.metabot24.com/bot-channel/create) новый канал в Metabot в разделе **Настройки бота -&gt;** [**Каналы**](https://app.metabot24.com/bot-channel), нажав на кнопку _**Новая привязка**._
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием[ ](https://metarex.gitbook.io/metabot24/podklychenie-kanal/telegram)[Каналы](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/kanaly).
+Рекомендуем также ознакомиться с подробным описанием[ ](https://metarex.gitbook.io/metabot24/podklychenie-kanal/telegram)[Каналы](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/kanaly).
 {% endhint %}
 
 * Выберите Telegram в качестве Канала;
@@ -531,5 +531,5 @@ description: >-
 
 Воспользуйтесь следующим уроком для решения ваших бизнес-задач:
 
-* [Создать бот с меню самообслуживания](https://metarex.gitbook.io/metabot24/stati/bot-s-menyu-samoobsluzhivaniya).
+* [Создать бот с меню самообслуживания](https://metabot.gitbook.io/documentation/lessons/bot-s-menyu-samoobsluzhivaniya).
 
