@@ -22,16 +22,16 @@ description: Подключите доступные каналы связи.
 
 Подробные рекомендации по настройка каждого канала находятся в соответсвующих разделах данной инструкции. Вы можете воспользоваться следующими интеграционными каналами:
 
-* \*\*\*\*[**Jivo**](../../podklychenie-servis/jivo.md#podklyuchenie-integracii)\*\*\*\*
-* \*\*\*\*[**Webim**](../../podklychenie-servis/webim.md#podklyuchenie-integracii)\*\*\*\*
-* \*\*\*\*[**LiveTex**](../../podklychenie-servis/livetex.md#podklyuchenie-integracii)\*\*\*\*
-* \*\*\*\*[**Битрикс24**](../../podklychenie-servis/livetex.md#podklyuchenie-integracii)\*\*\*\*
-* \*\*\*\*[**Umnico**](../../podklychenie-servis/umnico.md)\*\*\*\*
-* \*\*\*\*[**Metabot Widget**](../../podklyuchenie-kanalov/metabot-widget.md#nastroika-chat-vidzheta)\*\*\*\*
+* \*\*\*\*[**Jivo**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/jivo)\*\*\*\*
+* \*\*\*\*[**Webim**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/webim)\*\*\*\*
+* \*\*\*\*[**LiveTex**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/livetex)\*\*\*\*
+* \*\*\*\*[**Битрикс24**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/bitrix24)\*\*\*\*
+* \*\*\*\*[**Umnico**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/umnico)\*\*\*\*
+* \*\*\*\*[**Metabot Widget**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/metabot-widget)\*\*\*\*
 * Прямые каналы интеграции с мессенджерами:
-  * \*\*\*\*[**Telegram**](../../podklyuchenie-kanalov/telegram.md)\*\*\*\*
-  * \*\*\*\*[**VK**](../../podklyuchenie-kanalov/vk.md)\*\*\*\*
-  * \*\*\*\*[**Viber**](../../podklyuchenie-kanalov/viber.md)\*\*\*\*
+  * [**Telegram**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/telegram)\*\*\*\*
+  * \*\*\*\*[**VK**](https://metarex.gitbook.io/metabot24/podklyuchenie-kanalov/vk)\*\*\*\*
+  * \*\*\*\*[**Viber**](https://metarex.gitbook.io/metabot24/podklyuchenie-kanalov/viber)\*\*\*\*
 
 
 
