@@ -34,7 +34,7 @@ description: Интеграция канала Viber с платформой Met
 
 ![](../.gitbook/assets/izobrazhenie%20%28416%29.png)
 
-Далее перейти в настройки бота в раздел[ **Настройки бота**](https://app.metabot24.com/menubuilder#) подраздел [**Каналы**](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/kanaly)**.**
+Далее перейти в настройки бота в раздел[ **Настройки бота**](https://app.metabot24.com/menubuilder#) подраздел [**Каналы**](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/kanaly)**.**
 
 Нажать кнопку **Новая привязка** и выбрать  канал Viber, вставить токен и сохранить настройку.
 
