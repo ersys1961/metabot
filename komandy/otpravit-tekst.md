@@ -26,7 +26,7 @@ description: Бот отправляет тестовое сообщение с 
 Пример содержимого команды _Отправить текст_, список макропеременных аналогичен списку для команды _Email, з_а исключением того что содержимое письма - это html разметка, а содержимое команды _Отправить текст_ - обычный текст.
 
 {% hint style="info" %}
-Список используемых макропеременных можно найти в разделе [Макропеременные](https://metabot.gitbook.io/documentation/sintaksis-js-skripta-s-usloviem/makroperemennye).
+Список используемых макропеременных можно найти в разделе [Макропеременные](https://metarex.gitbook.io/metabot24/sintaksis-js-skripta-s-usloviem/makroperemennye).
 {% endhint %}
 
 #### Пример
@@ -53,7 +53,7 @@ description: Бот отправляет тестовое сообщение с 
 © 2018 — 2019 Metabot
 ```
 
-Подробнее с синтаксисом условий можно ознакомиться в разделе [JS условие выполнения команды](https://metabot.gitbook.io/documentation/sintaksis-js-skripta-s-usloviem/js-uslovie-vypolneniya-komandy).
+Подробнее с синтаксисом условий можно ознакомиться в разделе [JS условие выполнения команды](https://metarex.gitbook.io/metabot24/sintaksis-js-skripta-s-usloviem/js-uslovie-vypolneniya-komandy).
 
 {% hint style="warning" %}
 Параметр позволяет настраивать очень гибкие сценарии бота, в котором выполнение тех или иных команд зависит от выполнения условий. Например, зависит от определенных действий пользователя или от полученных от него данных.
