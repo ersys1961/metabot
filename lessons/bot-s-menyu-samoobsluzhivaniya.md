@@ -20,7 +20,7 @@ description: >-
 2. [Создайте](https://app.metabot24.com/bot/create) нового бота, нажав кнопку _**Создать нового...**_
 
 {% hint style="info" %}
- Рекомендуем также ознакомиться с подробным описанием [Как создать бота](https://metabot.gitbook.io/documentation/nachat-rabotu-s-metabot24/kak-sozdat-bota).
+ Рекомендуем также ознакомиться с подробным описанием [Как создать бота](https://metarex.gitbook.io/metabot24/nachat-rabotu-s-metabot24/kak-sozdat-bota).
 {% endhint %}
 
 * Укажите название бота. Например: "Торты на заказ";
@@ -31,7 +31,7 @@ description: >-
 3. [Создайте](https://app.metabot24.com/sentence/create) новый скрипт в только что созданном боте, нажав на кнопку **Создать** **скрипт** в разделе **Настройки бота** -&gt; ****[**Скрипты**](https://app.metabot24.com/menubuilder).
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием [Скрипты](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/skripty).
+Рекомендуем также ознакомиться с подробным описанием [Скрипты](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/skripty).
 {% endhint %}
 
 * Укажите название первого скрипта, например: "Приветствие";
@@ -42,7 +42,7 @@ description: >-
 * Далее откройте редактор скрипта, нажав на кнопку _Перейти в редактор скрипта_**,** расположенную напротив только что созданного вами скрипта.
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием [Редактор скрипта](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/skripty/redaktor-skripta).
+Рекомендуем также ознакомиться с подробным описанием[ Редактор скрипта.](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/skripty/redaktor-skripta)
 {% endhint %}
 
 ![](../.gitbook/assets/izobrazhenie%20%28385%29.png)
@@ -50,7 +50,7 @@ description: >-
 * Добавьте команду _**Установить статус лида**_, в которой при начале общения с ботом пользователю будет установлен статус, например, "Первичное касание".
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием [Установить статус лида](https://metabot.gitbook.io/documentation/komandy/ustanovit-status-lida).
+Рекомендуем также ознакомиться с подробным описанием [Установить статус лида](https://metarex.gitbook.io/metabot24/komandy/ustanovit-status-lida).
 {% endhint %}
 
 ![](../.gitbook/assets/izobrazhenie%20%28401%29.png)
@@ -82,7 +82,7 @@ description: >-
   * В блоке **Меню** добавим пункт меню.
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием [Создание меню](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/skripty/sozdanie-menyu).
+Рекомендуем также ознакомиться с подробным описанием [Создание меню](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/skripty/sozdanie-menyu).
 {% endhint %}
 
 Для данного бота достаточно создать меню из 4-х разделов:
@@ -118,7 +118,7 @@ description: >-
 {% hint style="info" %}
 Блок **Меню** в данном случае необходимо оставить пустым для того, чтобы бот автоматически вернул нам предыдущий уровень после выполнения команд. Если в скрипте, описывающем пункт меню, нет вложенного подменю, то при работе бот вернет пользователю предыдущее меню.
 
-Подробнее ознакомиться с данной функцией описания меню можно в разделе [Создание меню](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/skripty/sozdanie-menyu).
+Подробнее ознакомиться с данной функцией описания меню можно в разделе [Создание меню](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/skripty/sozdanie-menyu).
 {% endhint %}
 
  
@@ -144,7 +144,7 @@ description: >-
 {% hint style="info" %}
 Обратим внимание, что пункт меню **"Назад в меню"** обязательно надо создавать, так как при вложенном подменю возврат в главное меню автоматически не производится!
 
-Подробнее ознакомиться с данной функцией описания меню можно в разделе [Создание меню](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/skripty/sozdanie-menyu).
+Подробнее ознакомиться с данной функцией описания меню можно в разделе [Создание меню](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/skripty/sozdanie-menyu).
 {% endhint %}
 
 ![](../.gitbook/assets/izobrazhenie%20%28397%29.png)
@@ -173,7 +173,7 @@ description: >-
 6. [Создайте](https://app.metabot24.com/sentence/create) последний скрипт в вашем боте, который будет выполняться в том случае, если пользователь выбрал не верный пункт меню**.** 
 
 * Укажите название скрипта. Например: "Не корректный ввод";
-* Тип скрипта - _Fallback_. Подробнее можно ознакомиться в разделе [Скрипты](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/skripty);
+* Тип скрипта - _Fallback_. Подробнее можно ознакомиться в разделе [Скрипты](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/skripty);
 * Остальные параметры без изменения.
 
 ![](../.gitbook/assets/izobrazhenie%20%2830%29.png)
@@ -194,7 +194,7 @@ description: >-
 [Создайте](https://app.metabot24.com/route/create) маршруты для взаимодействия бота с пользователями, нажав на кнопку **Создать маршрут** в разделе **Настройки бота -&gt;** [**Маршруты**](https://app.metabot24.com/route)**.**
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием [Маршруты](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/marshruty).
+Рекомендуем также ознакомиться с подробным описанием [Маршруты](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/marshruty).
 {% endhint %}
 
 1. [Создайте](https://app.metabot24.com/route/create) маршрут, который будет запускаться для приветствия.
@@ -234,13 +234,13 @@ description: >-
 1. Создайте бот в Telegram при помощи **@BotFather** и скопируйте токен.
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием [Интеграция канала Telegram](https://metabot.gitbook.io/documentation/podklyuchenie-kanalov/telegram).
+Рекомендуем также ознакомиться с подробным описанием[ Интеграция канала Telegram](https://metarex.gitbook.io/metabot24/podklychenie-kanal/telegram).
 {% endhint %}
 
    2. [Создайте](https://app.metabot24.com/bot-channel/create) новый канал в Metabot в разделе **Настройки бота -&gt;** [**Каналы**](https://app.metabot24.com/bot-channel), нажав на кнопку _**Новая привязка**._
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием[ ](https://metarex.gitbook.io/metabot24/podklychenie-kanal/telegram)[Каналы](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/kanaly).
+Рекомендуем также ознакомиться с подробным описанием[ ](https://metarex.gitbook.io/metabot24/podklychenie-kanal/telegram)[Каналы](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/kanaly).
 {% endhint %}
 
 * Выберите Telegram в качестве Канала;
@@ -275,5 +275,5 @@ description: >-
 
 Воспользуйтесь следующим уроком для решения ваших бизнес-задач:
 
-* [Бот первого касания с распознаванием естественного языка \(NLP\)](https://metabot.gitbook.io/documentation/lessons/bot-pervogo-kasaniya-s-nlp).
+* [Бот первого касания с распознаванием естественного языка \(NLP\)](https://metarex.gitbook.io/metabot24/stati/bot-pervogo-kasaniya-s-nlp).
 

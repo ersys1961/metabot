@@ -22,8 +22,8 @@ description: >-
 {% hint style="info" %}
 Интеграции в **Umnico** включают в себя следующие каналы:
 
-Онлайн-чат для сайта, WhatsApp, Instagram, Telegram, Facebook Messenger, ВКонтакте.
+Онлайн-чат для сайта, WhatsApp, Instagram, Telegram, Facebook Messenger, ВКонтакте/
 {% endhint %}
 
-Как заказать и оплатить тарифный план можно ознакомиться в разделе [Как оплатить тариф](https://metabot.gitbook.io/documentation/tarify-oplata/kak-oplatit-tarif).
+Как заказать и оплатить тарифный план можно ознакомиться в разделе [Как оплатить тариф](https://metarex.gitbook.io/metabot24/tarify-oplata/kak-oplatit-tarif).
 

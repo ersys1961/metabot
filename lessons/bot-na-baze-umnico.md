@@ -8,11 +8,11 @@ description: >-
 
 {% embed url="https://youtu.be/-\_OS2OVHYOk" %}
 
-Чтобы создать бота, вы можете воспользоваться любыми уроками из раздела [**Уроки**](https://metarex.gitbook.io/metabot24/lessons) ****и затем перейти к этому уроку, чтобы подключить вашего бота к сервису Umnico.
+Чтобы создать бота, вы можете воспользоваться любыми уроками из раздела [**Уроки**](https://metabot.gitbook.io/documentation/lessons) ****и затем перейти к этому уроку, чтобы подключить вашего бота к сервису Umnico.
 
 ### Создание бота
 
-Вы можете быстро создать бот с [Меню самообслуживания](https://metarex.gitbook.io/metabot24/lessons/bot-s-menyu-samoobsluzhivaniya) или создать более сложный бот с [применением распознавания естественного языка \(NLP\)](https://metarex.gitbook.io/metabot24/lessons/bot-pervogo-kasaniya-s-nlp).
+Вы можете быстро создать бот с [Меню самообслуживания](https://metabot.gitbook.io/documentation/lessons/bot-s-menyu-samoobsluzhivaniya) или создать более сложный бот с [применением распознавания естественного языка \(NLP\)](https://metabot.gitbook.io/documentation/lessons/bot-pervogo-kasaniya-s-nlp).
 
 Предположим, что вы уже ознакомились с указанными уроками и создали бота. Далее мы расскажем, как интегрировать полученного бота в Umnico и про тонкости специфической  настройки этого сервиса.
 
