@@ -22,7 +22,7 @@ description: Подключите доступные каналы связи.
 
 Подробные рекомендации по настройка каждого канала находятся в соответсвующих разделах данной инструкции. Вы можете воспользоваться следующими интеграционными каналами:
 
-* \*\*\*\*[**Jivo**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/jivo)\*\*\*\*
+* \*\*\*\*[**Jivo**](../../podklychenie-servis/jivo.md#podklyuchenie-integracii)\*\*\*\*
 * \*\*\*\*[**Webim**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/webim)\*\*\*\*
 * \*\*\*\*[**LiveTex**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/livetex)\*\*\*\*
 * \*\*\*\*[**Битрикс24**](https://metarex.gitbook.io/metabot24/podklychenie-kanal/bitrix24)\*\*\*\*

@@ -31,9 +31,8 @@ description: 'В данном разделе вы узнаете, как пра�
 
 Воспользуйтесь следующими уроками для решения ваших бизнес-задач.
 
-* [Бот за 5 минут](https://metabot.gitbook.io/documentation/lessons/bot-za-5-minut);
-* [Бот первого касания с распознаванием естественного языка \(NLP\)](https://metabot.gitbook.io/documentation/lessons/bot-pervogo-kasaniya-s-nlp);
-* [Бот на базе Umnico](https://metabot.gitbook.io/documentation/lessons/bot-na-baze-umnico);
-* Создать автоворонку / туннель продаж;
-* [Создать бот с меню самоообслуживания](https://metabot.gitbook.io/documentation/lessons/bot-s-menyu-samoobsluzhivaniya).
+* [Бот за 5 минут](https://metarex.gitbook.io/metabot24/stati/bot-za-5-minut);
+* [Бот первого касания с распознаванием естественного языка \(NLP\)](https://metarex.gitbook.io/metabot24/stati/bot-pervogo-kasaniya-s-nlp);
+* [Создать автоворонку / туннель продаж](https://metarex.gitbook.io/metabot24/stati/avtovoronka-tunnel-prodazh);
+* [Создать бот с меню самоообслуживания](https://metarex.gitbook.io/metabot24/stati/bot-s-menyu-samoobsluzhivaniya).
 
