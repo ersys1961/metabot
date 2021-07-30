@@ -19,7 +19,7 @@ description: Настройте доступные интеграции для �
   * Нажать кнопку _**Создать**_.
 
 {% hint style="info" %}
-Рекомендуем также ознакомиться с подробным описанием [Интеграция с Dialogflow](https://metabot.gitbook.io/documentation/dialogflow/integraciya-s-dialogflow).
+Рекомендуем также ознакомиться с подробным описанием [Интеграция с Dialogflow.](https://metarex.gitbook.io/metabot24/dialogflow/integraciya-s-dialogflow)
 {% endhint %}
 
 ![](../.gitbook/assets/izobrazhenie%20%2885%29.png)

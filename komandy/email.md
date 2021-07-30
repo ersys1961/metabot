@@ -28,7 +28,7 @@ description: Бот отправляет Email уведомление
 ### Использование макропеременных команды _Email_
 
 {% hint style="info" %}
-Список используемых макропеременных можно найти в разделе [Макропеременные](https://metarex.gitbook.io/metabot24/sintaksis-js-skripta-s-usloviem/makroperemennye).
+Список используемых макропеременных можно найти в разделе [Макропеременные](https://metabot.gitbook.io/documentation/sintaksis-js-skripta-s-usloviem/makroperemennye).
 {% endhint %}
 
 #### Команда отправить письмо на почту
