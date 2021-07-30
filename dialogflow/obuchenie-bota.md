@@ -9,7 +9,7 @@ description: 'База знаний, по которой бот понимает
 Для этого вам понадобится сервис Dialogflow. На нем необходимо авторизоваться с помощью аккаунта Google.
 
 {% hint style="info" %}
-Как выполнять регистрацию и  интеграцию с соответствующим намерением из базы знаний в DF рекомендуем  ознакомиться в разделах [Регистрация с Dialogflow](https://metabot.gitbook.io/documentation/dialogflow/registraciya-v-dialogflow) и [Интеграция с Dialogflow](https://metabot.gitbook.io/documentation/dialogflow/integraciya-s-dialogflow).
+Как выполнять регистрацию и  интеграцию с соответствующим намерением из базы знаний в DF рекомендуем  ознакомиться в разделах [Регистрация с Dialogflow](https://metarex.gitbook.io/metabot24/dialogflow/registraciya-s-dialogflow) и [Интеграция с Dialogflow](https://metarex.gitbook.io/metabot24/dialogflow/integraciya-s-dialogflow).
 {% endhint %}
 
 После авторизации на сервисе Dialogflow и создании нового _Проекта / Агента_ дальнейшая работа по обучению бота будет производиться в разделе **Intents.**
@@ -90,7 +90,7 @@ description: 'База знаний, по которой бот понимает
 ![](../.gitbook/assets/izobrazhenie%20%28206%29.png)
 
 {% hint style="info" %}
-Для того, чтобы вывести Small Talk ответ бота по распознанному NLP Action, то в скрипт нужно добавить команду [Отправить текст](https://metabot.gitbook.io/documentation/komandy/otpravit-tekst) и в поле _Текст_  указать 
+Для того, чтобы вывести Small Talk ответ бота по распознанному NLP Action, то в скрипт нужно добавить команду [Отправить текст](https://metarex.gitbook.io/metabot24/komandy/otpravit-tekst) и в поле _Текст_  указать 
 
 {{ $nlpLastReponseText }}
 
