@@ -101,7 +101,7 @@ description: >-
 
 Теперь наш скрипт содержит сообщение с отправкой ссылки и выполняемым скриптами.
 
-Протестируем внесенные изменения в нашем боте. Для ускорения процесса тестирования будем использоваться канал [Metabot Widget](https://metarex.gitbook.io/metabot24/podklychenie-kanal/metabot-widget).
+Протестируем внесенные изменения в нашем боте. Для ускорения процесса тестирования будем использоваться канал [Metabot Widget](../podklyuchenie-kanalov/metabot-widget.md#nastroika-chat-vidzheta).
 
 ![](../.gitbook/assets/izobrazhenie%20%28280%29.png)
 

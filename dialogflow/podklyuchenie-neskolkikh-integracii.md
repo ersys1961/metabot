@@ -21,7 +21,7 @@ description: >-
 
 Подключение нескольких интеграций Dialogflow производится в разделе главного меню **Настройки** **бота** в подразделе [**Интеграции**](https://app.metabot24.com/bot-integration).
 
-В сервисе Dialogflow должно быть создано несколько Агентов, минимум 2 и настроены Учетные данные в разделе **API & Services** в подразделе **Credentials**, подробнее см. [Интеграция с Dialogflow](https://metarex.gitbook.io/metabot24/dialogflow/integraciya-s-dialogflow).
+В сервисе Dialogflow должно быть создано несколько Агентов, минимум 2 и настроены Учетные данные в разделе **API & Services** в подразделе **Credentials**, подробнее см. [Интеграция с Dialogflow](https://metabot.gitbook.io/documentation/dialogflow/integraciya-s-dialogflow).
 
 Далее необходимо создать интеграции с указанием следующих параметров:
 

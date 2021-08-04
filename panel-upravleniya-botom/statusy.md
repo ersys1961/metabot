@@ -32,7 +32,7 @@ description: >-
 
 ![](../.gitbook/assets/image%20%2879%29.png)
 
-После настройки интеграции канала, например [Umnico](https://metarex.gitbook.io/metabot24/podklychenie-kanal/umnico) или [Битрикс24](https://metarex.gitbook.io/metabot24/podklychenie-kanal/bitrix24)**,** необходимо выполнить синхронизацию статусов.
+После настройки интеграции канала, например [Umnico](../podklychenie-servis/umnico.md) или [Битрикс24](https://metabot.gitbook.io/documentation/podklychenie-servis/bitrix24)**,** необходимо выполнить синхронизацию статусов.
 
 * Нажать кнопку ****[_**Синхронизация**_](https://app.metabot24.com/status/sync)_**;**_
 * Подтвердить или отменить выполняемую операцию.

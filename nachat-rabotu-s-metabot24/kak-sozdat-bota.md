@@ -55,7 +55,7 @@ description: >-
 ![](../.gitbook/assets/izobrazhenie%20%28273%29.png)
 
 {% hint style="info" %}
-Для того, чтобы вывести Smalltalk ответ бота по распознанному NLP Action, то в скрипт нужно добавить команду [Отправить текст](https://metarex.gitbook.io/metabot24/komandy/otpravit-tekst) и в поле _Текст_  указать 
+Для того, чтобы вывести Smalltalk ответ бота по распознанному NLP Action, то в скрипт нужно добавить команду [Отправить текст](https://metabot.gitbook.io/documentation/komandy/otpravit-tekst) и в поле _Текст_  указать 
 
 {{ $nlpLastReponseText }}
 
@@ -70,7 +70,7 @@ description: >-
 ![](../.gitbook/assets/izobrazhenie%20%2835%29.png)
 
 * _Копировать_ - позволяет копировать бота внутри одного бизнеса или в другой бизнес на одной платформе. При копировании список лидов, взаимодействовавших с исходным ботом не копируется;
-* _Экспорт в JSON / Импорт из JSON_ - функция экспорта/импорта описана в разделе [Экспорт/Импорт бота](https://metarex.gitbook.io/metabot24/nachat-rabotu-s-metabot24/eksport-import-bota).
+* _Экспорт в JSON / Импорт из JSON_ - функция экспорта/импорта описана в разделе [Экспорт/Импорт бота](https://metabot.gitbook.io/documentation/nachat-rabotu-s-metabot24/eksport-import-bota).
 
 ![](../.gitbook/assets/izobrazhenie%20%28345%29.png)
 

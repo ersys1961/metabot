@@ -31,7 +31,7 @@ description: Интеграция канала Telegram с платформой 
 
 ![](../.gitbook/assets/image%20%2865%29.png)
 
-* Перейти в настройки бота в раздел[ **Настройки бота**](https://app.metabot24.com/menubuilder#) подраздел [**Каналы**](https://metarex.gitbook.io/metabot24/panel-upravleniya-botom/kanaly)**.**
+* Перейти в настройки бота в раздел[ **Настройки бота**](https://app.metabot24.com/menubuilder#) подраздел [**Каналы**](https://metabot.gitbook.io/documentation/panel-upravleniya-botom/kanaly)**.**
 * Нажать кнопку **Новая привязка** и выбрать  канал Telegram, вставить токен и сохранить настройку.
 
 ![](../.gitbook/assets/image%20%28111%29.png)

@@ -82,7 +82,7 @@
   * [Туннели продаж](primery-reshenii/tunneli-prodazh.md)
 * [Уроки](lessons/README.md)
   * [Бот за 5 минут](lessons/bot-za-5-minut.md)
-  * [Бот первого касания с NLP](lessons/bot-pervogo-kasaniya-s-nlp.md)
+  * [Бот с NLP](lessons/bot-s-nlp.md)
   * [Бот с меню самообслуживания](lessons/bot-s-menyu-samoobsluzhivaniya.md)
   * [Бот на базе Umnico](lessons/bot-na-baze-umnico.md)
   * [Автоворонка / туннель продаж](lessons/avtovoronka-tunnel-prodazh.md)

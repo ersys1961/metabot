@@ -30,7 +30,7 @@ description: >-
 
 ![](../.gitbook/assets/izobrazhenie%20%2872%29.png)
 
-По кнопке [_Попробовать бесплатно_](https://app.metabot24.com/register) __открывается форма регистрации на платформе, подробнее см. в разделе [**Регистрация в Metabot24**](https://metarex.gitbook.io/metabot24/nachat-rabotu-s-metabot24/registraciya-v-metabot24).
+По кнопке [_Попробовать бесплатно_](https://app.metabot24.com/register) __открывается форма регистрации на платформе, подробнее см. в разделе [**Регистрация в Metabot24**](https://metabot.gitbook.io/documentation/nachat-rabotu-s-metabot24/registraciya-v-metabot24).
 
 ![](../.gitbook/assets/image%20%2893%29.png)
 
