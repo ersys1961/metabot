@@ -8,15 +8,15 @@ description: Обращение к боту из внешних систем
 
 Бот представляет из себя независимое приложение со собственной бизнес-логикой, моделью данных и состоянием диалога.
 
-Для того чтобы управлять поведением бота из внешних систем вам необходимо запланировать работу \(job\) с помощью Bot API.
+Для того чтобы управлять поведением бота из внешних систем вам необходимо запланировать работу (job) с помощью Bot API.
 
-Работа это гибкий механизм, который позволяет реализовать практически любую задачу от самых простых \(например, обновить данные пользователя или отправить пользователю текстовое уведомление\) до более сложных \(например, произвести обработку входящих данных перед их передачей пользователю\).
+Работа это гибкий механизм, который позволяет реализовать практически любую задачу от самых простых (например, обновить данные пользователя или отправить пользователю текстовое уведомление) до более сложных (например, произвести обработку входящих данных перед их передачей пользователю).
 
 Гибкость достигается это за счет использования встроенного языка программирования JavaScript и системы триггеров.
 
 Сначала в боте на платформе Metabot вы создаете необходимые шаблон сценария диалога и код обработки входных данных, а затем с помощью Bot API планируете работу, которая принимает входные данные и в нужный вам момент передает их в ранее созданные алгоритмы обработки и шаблон сценария.
 
-Шаблон сценария диалога может содержать любую последовательность команда, которую необходимо отправить конечному пользователю \(или пользователям\) в коммуникационный канал. А алгоритм обработки может содержать любые логику от заполнения данных до обращения к внешним API.
+Шаблон сценария диалога может содержать любую последовательность команда, которую необходимо отправить конечному пользователю (или пользователям) в коммуникационный канал. А алгоритм обработки может содержать любые логику от заполнения данных до обращения к внешним API.
 
 Таким образом работа с API бота из внешних систем представляет обращение к хранимым процедурам бота, которые вы создаете в интерфейсе веб-конструктора.
 
@@ -28,123 +28,129 @@ Swagger доступен по адресу: [https://app.metabot24.com/api/docs]
 
 Ниже описан основной метод работы с ботом.
 
-{% api-method method="post" host="https://test.cakes.com" path="/bots/{botId}/jobs/schedule" %}
-{% api-method-summary %}
-Schedule
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://test.cakes.com" path="/bots/{botId}/jobs/schedule" method="post" summary="Schedule" %}
+{% swagger-description %}
 Основной метод для планирования в боте работы.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="botId" type="number" required=true %}
+{% swagger-parameter in="path" name="botId" type="number" %}
 ID вашего бота
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
+{% swagger-parameter in="header" name="Authentication" type="string" %}
 Ваш токен аутентификации. Настраивается в панели администратора в разделе "Пользователи бизнеса".
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="script\_id" type="integer" required=false %}
-ID скрипта \(сценария диалога\) для запуска, например, 1
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="script_id" type="integer" %}
+ID скрипта (сценария диалога) для запуска, например, 1
+{% endswagger-parameter %}
 
-{% api-method-parameter name="trigger\_id" type="integer" required=false %}
+{% swagger-parameter in="body" name="trigger_id" type="integer" %}
 ID триггера для запуска, например, 1
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="broadcast\_id" type="integer" required=false %}
+{% swagger-parameter in="body" name="broadcast_id" type="integer" %}
 ID рассылки для запуска, например, 1
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="script\_code" type="string" required=false %}
-Кодовое имя сценария диалога для запуска, например, "script\_short\_code"
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="script_code" type="string" %}
+Кодовое имя сценария диалога для запуска, например, "script_short_code"
+{% endswagger-parameter %}
 
-{% api-method-parameter name="trigger\_code" type="string" required=false %}
-Кодовое имя триггера для запуска, например, "script\_short\_code"
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="trigger_code" type="string" %}
+Кодовое имя триггера для запуска, например, "script_short_code"
+{% endswagger-parameter %}
 
-{% api-method-parameter name="broadcast\_code" type="string" required=false %}
-Кодовое имя рассылки для запуска, например, "broadcast\_short\_code"
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="broadcast_code" type="string" %}
+Кодовое имя рассылки для запуска, например, "broadcast_short_code"
+{% endswagger-parameter %}
 
-{% api-method-parameter name="lead\_id" type="integer" required=false %}
+{% swagger-parameter in="body" name="lead_id" type="integer" %}
 ID лида/пользователя для которого выполняем работу, например, 135
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="ticket\_id" type="integer" required=false %}
+{% swagger-parameter in="body" name="ticket_id" type="integer" %}
 ID тикета/таблицы в модели данных для которой выполняем работу, например, 7
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="run\_at" type="string" required=false %}
+{% swagger-parameter in="body" name="run_at" type="string" %}
 Время выполнения в формате "ГГГГ-ММ-ДД чч:мм:сс", например,  "2021-01-21 21:00:00"
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="run\_after\_sec" type="integer" required=false %}
+{% swagger-parameter in="body" name="run_after_sec" type="integer" %}
 Отсрочка выполнения в секундах, например, 300
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="is\_periodic" type="boolean" required=false %}
+{% swagger-parameter in="body" name="is_periodic" type="boolean" %}
 Необходимо ли повторять работу, например, false
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="condition\_script\_code" type="string" required=false %}
-Условие выполнения работы в виде JavaScript кода, например "if \(leadId == 135\) return true;"  
-  
-Работа будет запланирована и выполнена только при условии, что код условия вернет истину \(true\).
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="condition_script_code" type="string" %}
+Условие выполнения работы в виде JavaScript кода, например "if (leadId == 135) return true;"
 
-{% api-method-parameter name="script\_request\_params" type="object" required=false %}
-JSON-объект с входными параметрами к которым можно обратиться из триггера, скрипта или рассылки, например:  
-{   
-  "first\_param": 7,  
-  "second\_param": {  
-    "any\_key": "any\_value"  
-  }  
+\
+
+
+
+
+\
+
+
+Работа будет запланирована и выполнена только при условии, что код условия вернет истину (true).
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="script_request_params" type="object" %}
+JSON-объект с входными параметрами к которым можно обратиться из триггера, скрипта или рассылки, например:
+
+\
+
+
+{ 
+
+\
+
+
+  "first_param": 7,
+
+\
+
+
+  "second_param": {
+
+\
+
+
+    "any_key": "any_value"
+
+\
+
+
+  }
+
+\
+
+
 }
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="add\_tags" type="string" required=false %}
+{% swagger-parameter in="body" name="add_tags" type="string" %}
 Список тэгов, которыми необходимо пометить пользователя, например, 'tag1,tag2'
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="remove\_tags" type="string" required=false %}
+{% swagger-parameter in="body" name="remove_tags" type="string" %}
 Cписок тэгов, которые необходимо удалить у пользователя 'tag1,tag2'
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Cake successfully retrieved." %}
 ```
 {    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Could not find a cake matching this query." %}
 ```
 {    "message": "Ain't no cake like that."}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-
+{% endswagger-response %}
+{% endswagger %}
 

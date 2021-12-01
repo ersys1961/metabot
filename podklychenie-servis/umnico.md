@@ -4,11 +4,11 @@ description: Интеграция сервиса Umnico с платформой 
 
 # Umnico
 
-{% embed url="https://youtu.be/-\_OS2OVHYOk" %}
+{% embed url="https://youtu.be/-_OS2OVHYOk" %}
 
-Для интеграции сервиса [Umnico](https://umnico.com) с платформой Metabot24 необходимо в разделе **Настройки -&gt; API** скопировать ваш API токен, нажав на кнопку **Скопировать токен**. 
+Для интеграции сервиса [Umnico](https://umnico.com) с платформой Metabot24 необходимо в разделе **Настройки -> API** скопировать ваш API токен, нажав на кнопку **Скопировать токен**.&#x20;
 
-![](../.gitbook/assets/izobrazhenie%20%28216%29.png)
+![](<../.gitbook/assets/izobrazhenie (216).png>)
 
 Далее на платформе [**Metabot24**](https://app.metabot24.com) в настройках своего бота выполнить следующие действия:
 
@@ -17,23 +17,22 @@ description: Интеграция сервиса Umnico с платформой 
 * В поле _**Токен**_ вставить скопированный токен;
 * В поле _**Логин Менеджера**_ вставить логин пользователя из Umnico и сохранить настройку.
 
-![](../.gitbook/assets/izobrazhenie%20%28366%29.png)
+![](<../.gitbook/assets/izobrazhenie (366).png>)
 
 {% hint style="warning" %}
 Поле _Логин Менеджера_ обязательно для заполнения.
 {% endhint %}
 
-![](../.gitbook/assets/izobrazhenie%20%28247%29.png)
+![](<../.gitbook/assets/izobrazhenie (247).png>)
 
 * Новая привязка создана и для завершения настройки необходимо нажать ссылку **Вебхук.**
 
-![](../.gitbook/assets/izobrazhenie%20%28180%29.png)
+![](<../.gitbook/assets/izobrazhenie (180).png>)
 
 * Подтвердить или отменить выполняемую операцию.
 
-![](../.gitbook/assets/image%20%28121%29.png)
+![](<../.gitbook/assets/image (121).png>)
 
 * Подключение к сервису Umnico завершено.
 
-![](../.gitbook/assets/izobrazhenie%20%2856%29.png)
-
+![](<../.gitbook/assets/izobrazhenie (56).png>)
