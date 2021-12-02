@@ -36,7 +36,7 @@ description: Интеграция сервиса Jivo с платформой Me
 
 ![](<../.gitbook/assets/izobrazhenie (316).png>)
 
-Перейдите по ссылке [https://app.jivosite.com/settings/integrations/add-bot/31](https://app.jivosite.com/settings/integrations/add-bot/31) и настройте расширение Metabot для подключения бота:
+Перейдите по ссылке [**https://app.jivosite.com/settings/integrations/add-bot/31**](https://app.jivosite.com/settings/integrations/add-bot/31) и настройте расширение Metabot для подключения бота:
 
 ![](../.gitbook/assets/Jivo.jpg)
 
