@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Знакомство с Metabot24](README.md)
+  * [Инфраструктура](master/infrastruktura.md)
+  * [Web IDE](master/web-ide.md)
+  * [Бизнес](master/biznes.md)
+  * [Бот](master/bot.md)
 * [Термины](terminy.md)
 * [Начало работы - с чего начать](nachat-rabotu-s-metabot24/README.md)
   * [Как устроен Metabot24](nachat-rabotu-s-metabot24/kak-ustroen-metabot24.md)
@@ -95,5 +99,4 @@
 * [Помощь](support.md)
 * [Видеоролики обучающие](videoroliki-obuchayushie.md)
 * [Видеоотзыв](videootzyv.md)
-* [Часто задаваемые вопросы](support_faq.md)
-
+* [Часто задаваемые вопросы](support\_faq.md)
