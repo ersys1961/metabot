@@ -77,6 +77,8 @@
   * [Bot API](integracionnye-vozmozhnosti/bot-api.md)
   * [Обращение к внешним системам из бота](integracionnye-vozmozhnosti/obrashenie-k-vneshnim-sistemam-iz-bota.md)
 * [Deep Linking / Внешнее связывание](deep-linking-vneshnee-svyazyvanie.md)
+* [Плагины Metabot24](plaginy-metabot24/README.md)
+  * [Список общих плагинов](plaginy-metabot24/spisok-obshikh-plaginov.md)
 * [Интернет-магазин в боте](internet-magazin-v-bote/README.md)
   * [Настройки магазина](internet-magazin-v-bote/nastroiki-magazina.md)
 * [Примеры решений](primery-reshenii/README.md)
