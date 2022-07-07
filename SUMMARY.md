@@ -89,7 +89,6 @@
   * [Бот с NLP](lessons/bot-s-nlp.md)
   * [Бот с меню самообслуживания](lessons/bot-s-menyu-samoobsluzhivaniya.md)
   * [Бот на базе Umnico](lessons/bot-na-baze-umnico.md)
-  * [Автоворонка / туннель продаж](lessons/avtovoronka-tunnel-prodazh.md)
 * [Тарифы и оплата](tarify-oplata/README.md)
   * [Тарифы](tarify-oplata/tarify-1.md)
   * [Как оплатить тариф](tarify-oplata/kak-oplatit-tarif.md)
