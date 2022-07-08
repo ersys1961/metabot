@@ -79,6 +79,8 @@
 * [Deep Linking / Внешнее связывание](deep-linking-vneshnee-svyazyvanie.md)
 * [Плагины Metabot24](plaginy-metabot24/README.md)
   * [Список общих плагинов](plaginy-metabot24/spisok-obshikh-plaginov.md)
+  * [Интерфейс и логика работы плагинов](plaginy-metabot24/interfeis-i-logika-raboty-plaginov.md)
+  * [Сниппеты](plaginy-metabot24/snippety.md)
 * [Интернет-магазин в боте](internet-magazin-v-bote/README.md)
   * [Настройки магазина](internet-magazin-v-bote/nastroiki-magazina.md)
 * [Примеры решений](primery-reshenii/README.md)
