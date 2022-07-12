@@ -54,19 +54,19 @@ let moment = require('moment');
 
 В разделе **Плагины Бизнеса** создадим новый плагин для формирования текста, который мы будет отправлять пользователю с помощью атрибутов бота.
 
-![](<../.gitbook/assets/image (242).png>)
+![](<../.gitbook/assets/image (246).png>)
 
 Заполним поля формы, пример показан ниже на рисунке, далее сохраним форму.
 
-![](<../.gitbook/assets/image (237).png>)
+![](<../.gitbook/assets/image (239).png>)
 
 Далее, перейдем в скрипты плагина.
 
-![](<../.gitbook/assets/image (236).png>)
+![](<../.gitbook/assets/image (238).png>)
 
 Создадим новый скрипт
 
-![](<../.gitbook/assets/image (234).png>)
+![](<../.gitbook/assets/image (235).png>)
 
 Заполните поля формы, пример приведен ниже на рисунке. Укажите в исходном коде скрипта:
 
@@ -77,7 +77,7 @@ memory.setAttr("greet", greetMsg);
 
 Здесь мы сохраняем текст приветствия в memory (временном атрибуте бота).
 
-![](<../.gitbook/assets/image (241).png>)
+![](<../.gitbook/assets/image (245).png>)
 
 Полное имя библиотеки «клеится» из трех составляющих:
 
@@ -91,7 +91,7 @@ memory.setAttr("greet", greetMsg);
 snippet('Business.Notifications.HelloLead');
 ```
 
-![](<../.gitbook/assets/image (239).png>)
+![](<../.gitbook/assets/image (242).png>)
 
 Для проверки работы плагина, в скрипт бота необходимо добавить две команды:
 
@@ -111,8 +111,36 @@ snippet('Business.Notifications.HelloLead');
 
 &#x20;В содержимом использована макропеременная, текст который будет отправлен в мессенджер.
 
-![](<../.gitbook/assets/image (240).png>)
+![](<../.gitbook/assets/image (243).png>)
 
 Результат работы скрипта в телеграм:
 
-![](<../.gitbook/assets/image (238).png>)
+![](<../.gitbook/assets/image (241).png>)
+
+### **Пример 3. Использование общего плагина в плагине бизнеса**
+
+Модифицируем пример 2 так, чтобы текст отправлялся не с помощью команды **Отправить текст**, а прям из JS кода плагина.
+
+![](<../.gitbook/assets/image (237).png>)
+
+В исходном коде скрипта укажем:
+
+```
+require('Common.Bot.Commands');
+const greetMsg = 'Привет, ' + lead.getData('name') + '!';
+CommonBotCommands.sendText(greetMsg);
+```
+
+![](<../.gitbook/assets/image (236).png>)
+
+Удалим команду **Отправить текст**, команду **Выполнить JavaScript** оставляем без изменений.
+
+![](<../.gitbook/assets/image (244).png>)
+
+В скрипте должна остаться одна команда.
+
+![](<../.gitbook/assets/image (240).png>)
+
+Результат работы данного скрипта будет идентичным примеру 2:
+
+![](<../.gitbook/assets/image (234).png>)
