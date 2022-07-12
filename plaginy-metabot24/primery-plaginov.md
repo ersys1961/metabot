@@ -58,11 +58,11 @@ let moment = require('moment');
 
 Заполним поля формы, пример показан ниже на рисунке, далее сохраним форму.
 
-![](<../.gitbook/assets/image (239).png>)
+![](<../.gitbook/assets/image (239) (1).png>)
 
 Далее, перейдем в скрипты плагина.
 
-![](<../.gitbook/assets/image (238).png>)
+![](<../.gitbook/assets/image (238) (1).png>)
 
 Создадим новый скрипт
 
@@ -91,7 +91,7 @@ memory.setAttr("greet", greetMsg);
 snippet('Business.Notifications.HelloLead');
 ```
 
-![](<../.gitbook/assets/image (242).png>)
+![](<../.gitbook/assets/image (242) (1).png>)
 
 Для проверки работы плагина, в скрипт бота необходимо добавить две команды:
 
@@ -111,17 +111,17 @@ snippet('Business.Notifications.HelloLead');
 
 &#x20;В содержимом использована макропеременная, текст который будет отправлен в мессенджер.
 
-![](<../.gitbook/assets/image (243).png>)
+![](<../.gitbook/assets/image (243) (1).png>)
 
 Результат работы скрипта в телеграм:
 
-![](<../.gitbook/assets/image (241).png>)
+![](<../.gitbook/assets/image (241) (1).png>)
 
 ### **Пример 3. Использование общего плагина в плагине бизнеса**
 
 Модифицируем пример 2 так, чтобы текст отправлялся не с помощью команды **Отправить текст**, а прям из JS кода плагина.
 
-![](<../.gitbook/assets/image (237).png>)
+![](<../.gitbook/assets/image (237) (1).png>)
 
 В исходном коде скрипта укажем:
 
@@ -135,11 +135,11 @@ CommonBotCommands.sendText(greetMsg);
 
 Удалим команду **Отправить текст**, команду **Выполнить JavaScript** оставляем без изменений.
 
-![](<../.gitbook/assets/image (244).png>)
+![](<../.gitbook/assets/image (244) (1).png>)
 
 В скрипте должна остаться одна команда.
 
-![](<../.gitbook/assets/image (240).png>)
+![](<../.gitbook/assets/image (240) (1).png>)
 
 Результат работы данного скрипта будет идентичным примеру 2:
 
