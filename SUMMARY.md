@@ -81,6 +81,7 @@
   * [Список общих плагинов](plaginy-metabot24/spisok-obshikh-plaginov.md)
   * [Интерфейс и логика работы плагинов](plaginy-metabot24/interfeis-i-logika-raboty-plaginov.md)
   * [Сниппеты](plaginy-metabot24/snippety.md)
+  * [Примеры плагинов](plaginy-metabot24/primery-plaginov.md)
 * [Интернет-магазин в боте](internet-magazin-v-bote/README.md)
   * [Настройки магазина](internet-magazin-v-bote/nastroiki-magazina.md)
 * [Примеры решений](primery-reshenii/README.md)
